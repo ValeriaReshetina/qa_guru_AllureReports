@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
-public class StepsTest {
+public class ClassworkStepsTest {
 
     private static final String REPOSITORY = "eroshenkoam/allure-example";
     private static final int ISSUE = 80;
@@ -42,7 +42,7 @@ public class StepsTest {
     @Test
     public void testAnnotatedStep() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-        WebSteps steps = new WebSteps();
+        ClassworkWebSteps steps = new ClassworkWebSteps();
 
         steps.openMainPage();
         steps.searchForRepository(REPOSITORY);
