@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$x;
 import static org.openqa.selenium.By.linkText;
 
-public class CleanSelenideTest {
+public class CleanSelenideTest extends TestBase {
     @Test
     @Feature("Issue в репозитории")
     @Story("Создание Issue")

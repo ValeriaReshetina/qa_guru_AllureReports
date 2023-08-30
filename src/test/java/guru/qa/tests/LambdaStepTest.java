@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
-public class LambdaStepTest {
+public class LambdaStepTest extends TestBase {
 
     private static final String REPOSITORY = "ValeriaReshetina/qa_guru_AllureReports";
     private static final String ISSUE = "Issue for Autotest";

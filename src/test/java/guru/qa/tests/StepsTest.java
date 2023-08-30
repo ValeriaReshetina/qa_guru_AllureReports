@@ -7,7 +7,7 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class StepsTest {
+public class StepsTest extends TestBase {
     private static final String REPOSITORY = "ValeriaReshetina/qa_guru_AllureReports";
     private static final String ISSUE = "Issue for Autotest";
 
